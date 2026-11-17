@@ -30,4 +30,4 @@ Junior QA Engineer · ручное и API-тестирование, SQL, Playwri
 
 ## Контакты
 
-✉️ msofina16@yandex.ru · 💬 Telegram: [@agrr16](https://t.me/agrr16)
+✉️ msofina16@yandex.ru · 💬 Telegram: [@agrr16](https://t.me/agrr16) · 💼 [Хабр Карьера](https://career.habr.com/m_sofina)
