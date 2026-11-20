@@ -1,6 +1,6 @@
 # Тест-кейсы: saucedemo.com
 
-**Окружение:** Google Chrome (последняя версия), Windows 11
+**Окружение:** Google Chrome (последняя версия), macOS
 **Предусловие для всех кейсов:** открыт сайт https://www.saucedemo.com
 
 Статус: ✅ Passed · ❌ Failed · ⬜ Не выполнен

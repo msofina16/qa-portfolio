@@ -8,6 +8,7 @@ Junior QA Engineer · ручное и API-тестирование, SQL, Playwri
 | № | Проект | Что внутри | Статус |
 |---|---|---|---|
 | 1 | [Sauce Demo — интернет-магазин](saucedemo/) | [чек-лист](saucedemo/checklist.md), [тест-кейсы](saucedemo/test-cases.md) | в работе |
+| 2 | [Автотесты: Playwright + TypeScript](https://github.com/msofina16/qa-portfolio-playwright) | UI-тесты Sauce Demo, API-тесты, CI в GitHub Actions | в работе |
 
 ## Объект тестирования
 
@@ -26,7 +27,7 @@ Junior QA Engineer · ручное и API-тестирование, SQL, Playwri
 - [ ] баг-репорты по найденным дефектам
 - [ ] коллекция Postman с тестами API
 - [ ] SQL-задачи
-- [ ] автотесты на TypeScript + Playwright
+- [ ] автотесты на TypeScript + Playwright — в работе: [qa-portfolio-playwright](https://github.com/msofina16/qa-portfolio-playwright)
 
 ## Контакты
 
