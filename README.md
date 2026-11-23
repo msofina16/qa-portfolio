@@ -7,7 +7,7 @@ Junior QA Engineer · ручное и API-тестирование, SQL, Playwri
 
 | № | Проект | Что внутри | Статус |
 |---|---|---|---|
-| 1 | [Sauce Demo — интернет-магазин](saucedemo/) | [чек-лист](saucedemo/checklist.md), [тест-кейсы](saucedemo/test-cases.md) | в работе |
+| 1 | [Sauce Demo — интернет-магазин](saucedemo/) | [чек-лист](saucedemo/checklist.md), [тест-кейсы](saucedemo/test-cases.md), [баг-репорты](saucedemo/bug-reports.md) | в работе |
 | 2 | [Автотесты: Playwright + TypeScript](https://github.com/msofina16/qa-portfolio-playwright) | UI-тесты Sauce Demo, API-тесты, CI в GitHub Actions | в работе |
 | 3 | [Restful Booker — API бронирования](restful-booker/) | [баг-репорты](restful-booker/bug-reports.md) по найденным дефектам API | в работе |
 
@@ -25,7 +25,7 @@ Junior QA Engineer · ручное и API-тестирование, SQL, Playwri
 
 ## Планы
 
-- [ ] баг-репорты по найденным дефектам — в работе: [Restful Booker API](restful-booker/bug-reports.md), дальше Sauce Demo
+- [ ] баг-репорты по найденным дефектам — в работе: [Restful Booker API](restful-booker/bug-reports.md), [Sauce Demo](saucedemo/bug-reports.md)
 - [ ] коллекция Postman с тестами API
 - [ ] SQL-задачи
 - [ ] автотесты на TypeScript + Playwright — в работе: [qa-portfolio-playwright](https://github.com/msofina16/qa-portfolio-playwright)
