@@ -158,3 +158,29 @@
 **Вложения:** ![Сортировка по Price (low to high)](bug-05-sort-1.png)
 ![Сортировка Price (low to high) не работает](bug-05-sort-2.png)
 
+
+---
+
+## BUG-06. Menu: пункт About открывает страницу 404 вместо сайта Sauce Labs
+
+**Серьёзность:** Minor
+**Приоритет:** Low
+**Пользователь:** `problem_user`
+
+**Предусловия:**
+1. Выполнен вход под `problem_user`
+
+**Шаги воспроизведения:**
+1. Открыть каталог
+2. Нажать на меню слева сверху
+3. Нажать на кнопку About
+
+**Ожидаемый результат:**
+При открытии меню и нажатии на кнопку About открывается главная страница сайта Sauce Labs (https://saucelabs.com/).
+
+**Фактический результат:**
+- При нажатии в меню на кнопку About открывается страница с Page Not Found (https://saucelabs.com/error/404);
+- У `standard_user` About открывает https://saucelabs.com/.
+
+**Вложения:** ![Пункт About](bug-06-about-1.png)
+![Page Not Found](bug-06-about-2.png)
