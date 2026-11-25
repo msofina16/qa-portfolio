@@ -93,3 +93,30 @@
 
 **Вложения:** ![Товары 1-4](bug-03-catalog-1.png)
 ![Товары 5-6](bug-03-catalog-2.png)
+---
+
+## BUG-04. Products: в каталоге и на странице товара не работает кнопка Remove
+
+**Серьёзность:** Major
+**Приоритет:** High 
+**Пользователь:** `problem_user`
+
+**Предусловия:**
+1. Выполнен вход под `problem_user`
+2. Из каталога в корзину добавлены Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Onesie
+
+**Шаги воспроизведения:**
+1. Открыть каталог
+2. Нажать на Remove у Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Onesie
+3. Открыть корзину
+
+**Ожидаемый результат:**
+Все 3 товара удаляются из корзины, у всех кнопка сменится на Add to cart, значка на корзине не будет.
+
+**Фактический результат:**
+- У Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Onesie кнопка не сменилась на Add to cart, они все еще в корзине, на самой странице товаров кнопка Remove также не работает;
+- Из корзины все 3 товара удаляются;
+- У `standard_user` Remove в каталоге работает, товары удаляются.
+
+**Вложения:** ![Товары 1-4](bug-04-remove-1.png)
+![Товары 5-6](bug-04-remove-2.png)
